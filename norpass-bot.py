@@ -23,7 +23,7 @@ gc = pygsheets.authorize(outh_file='Norpass-Bot-Google-API.json')
 @bot.event
 async def on_ready():
     print ("Norpass-Bot is Ready")
-    print ("I am running on" + bot.user.name)
+    print ("I am running on " + bot.user.name)
     print ("With the ID: " + (bot.user.id))
     print ("----------")
 
