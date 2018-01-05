@@ -83,7 +83,7 @@ async def kick(ctx, user: discord.Member):
 
 # CARSHOW
 @bot.command(pass_context=True)
-async def embed(ctx):
+async def CarShow(ctx):
     embed = discord.Embed(title="Car Show!", description="RARE COLOR!", color=0x00ff00)
     embed.addfield(Name="CARSHOW", value="https://www.youtube.com/watch?time_continue=141&v=KX51i5JFQ8U")
     await bot.say(embed=embed)
