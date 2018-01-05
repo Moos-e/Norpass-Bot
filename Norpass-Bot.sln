@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Norpass-Bot", "Norpass-Bot.pyproj", "{A6F95742-8E21-45D3-9477-C790ADF59E69}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C67F4D53-9152-4528-A7DE-B7E6C4038829}"
+	ProjectSection(SolutionItems) = preProject
+		Procfile.txt = Procfile.txt
+		Procfile.Windows = Procfile.Windows
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

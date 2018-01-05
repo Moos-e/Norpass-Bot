@@ -25,6 +25,8 @@
     <Content Include="Pipfile.lock">
       <Publish>True</Publish>
     </Content>
+    <Content Include="Procfile - Copy.txt" />
+    <Content Include="Procfile - Copy.Windows" />
     <Content Include="runtime.txt">
       <Publish>True</Publish>
     </Content>
