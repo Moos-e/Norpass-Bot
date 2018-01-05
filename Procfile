@@ -1,1 +1,1 @@
-web: python norpass-bot.py
+worker: python norpass-bot.py
