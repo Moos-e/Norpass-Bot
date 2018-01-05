@@ -29,8 +29,7 @@ async def on_ready():
 
 # Input Gearscore Info
 @bot.command(pass_context=True)
-async def gear(ctx):
-    
+async def gear(ctx):    
     embed = discord.Embed(title="{}'s Gear Score".format(ctx.message.author.name), color=0x00ff00)
     embed.add_field(name="ID", value=ctx.message.author.id, inline=False)
     await bot.say(embed=embed)
@@ -83,9 +82,9 @@ async def kick(ctx, user: discord.Member):
 
 # CARSHOW
 @bot.command(pass_context=True)
-async def CarShow(ctx):
-    embed = discord.Embed(title="Car Show!", description="RARE COLOR!", color=0x00ff00)
-    embed.addfield(Name="CARSHOW", value="https://www.youtube.com/watch?time_continue=141&v=KX51i5JFQ8U")
+async def carshow(ctx):    
+    embed = discord.Embed(title="CARSHOW!", color=0x00ff00)
+    embed.add_field(name="RARE COLOR!", value="https://www.youtube.com/watch?v=KX51i5JFQ8U", inline=True)
     await bot.say(embed=embed)
 
 bot.run("Mzk4MzMzMTQ2MDYxMzQwNjg0.DS9AeQ.tFiHse7jW_lDp62zEiLBB5Sa_bI")
