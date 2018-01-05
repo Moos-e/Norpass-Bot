@@ -21,5 +21,13 @@
   <ItemGroup>
     <Compile Include="norpass-bot.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pipfile.lock">
+      <Publish>True</Publish>
+    </Content>
+    <Content Include="runtime.txt">
+      <Publish>True</Publish>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
