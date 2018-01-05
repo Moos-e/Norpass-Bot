@@ -1,1 +1,1 @@
-web: python norpass-bot.py runserver
+web: python norpass-bot.py
